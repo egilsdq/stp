@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+<title>STP</title>
 
+<body>
+	<p>Hello</p>
 </body>
 
 </html>
