@@ -31,7 +31,7 @@
 			
 			<ul class="nav navbar-nav pull-right">
 				<p class="navbar-btn">
-				<li><button type="button" class="btn btn-success push-right">Upload</button></li>
+				<li><?php echo Html::anchor('pages/upload', 'Upload') ?></li>
 				</p>
 			</ul>			
 			
@@ -51,15 +51,7 @@
 			<?php echo Html::img("b.jpg"); ?>
 			<br/>
 			<a href="#"><i class="glyphicon glyphicon-comment"></i> Comments: 0</a> 
-			<a href="#" class="pull-right"><i class="glyphicon glyphicon-thumbs-up"></i> Upvotes: 0</a>
-		</div>		
-		<div class="post">
-			<a href="#"><h1>Post title</h1></a>
-			<?php echo Html::img("c.jpg"); ?>
-			<br/>
-			<a href="#"><i class="glyphicon glyphicon-comment"></i> Comments: 0</a> 
-			<a href="#" class="pull-right"><i class="glyphicon glyphicon-thumbs-up"></i> Upvotes: 0</a>
-		</div>				
+			<a href="#" class="pull-right"><i class="glyphicon glyphicon-thumbs-up"></i> Upvotes: 0</a>			
 		
 		<div class="alert alert-danger" style="margin-top: 50px;">
 			You've reched the end! No more posts beyond this point!
